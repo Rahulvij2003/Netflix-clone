@@ -1,0 +1,28 @@
+.header{
+    
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    z-index: 999;
+    justify-content: space-between;
+    
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+
+}
+
+.nav__black {
+    background-color: #111;
+    height: 20px;
+  }
+.logo{
+    position: fixed;
+    object-fit: contain;
+    width: 100px;
+    left: 20;
+
+    margin-top: -21px;
+
+}
